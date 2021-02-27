@@ -1,0 +1,35 @@
+{
+  //required
+"name": "OCR irrestteam",
+"version":"1.0",
+"manifest_version": 2,
+
+ //description
+"description": "Builded from scratch for the best team",
+"icons": [
+    {
+      "src": "https://i.pinimg.com/564x/0b/b1/51/0bb151bd8bd3752bb4c3e1259f620ef4.jpg"
+    }
+  ]
+
+//action
+
+"browser_action":{
+  "defaut_title": "I hope that I can turn our work more effective and faster"
+  "default_popup": "popup.html"
+},
+
+//where
+"content_script": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+
+    "js": [
+      "index.js"
+    ]
+  }
+]
+
+}
